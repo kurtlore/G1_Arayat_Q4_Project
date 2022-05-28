@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FINISH</title>
+         <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/aWMn0zF49fWd1PSdR4KZLunWB2z4fBNCm8bcPN8BfXC06iGpadiXbSQ8i-vUroYugySMvHt7TWET0s61tYA2nFYufdI4ABWcI4-k3BvF2YQ0_jip_3yi9dfJ9fHs8HrqQV45fYhb1w">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+        
+        <script>
+            function myFunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("search");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("menu");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } 
+                    
+                    else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+            
+            function showAppliances() {
+                var x, y;
+                x = document.getElementById("appliances_dropdown");
+                y = document.getElementById("page_header").src='https://lh3.googleusercontent.com/iAXvDqr3nHsvxMD1fxzMnwnRHbcwbHJoSX033szdLsunsLiyJYdSEPIKG_0ptEMXXrXgXajqNKjWjv4VZJC5j7fSCem4fWggFxxxjM6C3AzMi9MoBlumR1W7zPyLEvbgNV0SsYVNRA=w2400';
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.display = "block";
+                    
+                } 
+                    else {
+                        x.style.display = "none";
+                        y.style.display = "none";
+                    }
+                }
+            
+            function showStorage() {
+                var x, y;
+                x = document.getElementById("storage_dropdown");
+                y = document.getElementById("page_header").src='https://lh3.googleusercontent.com/Ybjliw6lORpJSeZCPm5K7LTddBoYZONp4F_qSC3wsWlKlTucJapNK_pTzVEDY7hXj78Gl5BuN04X-nuGyeCao4cCpAF3YpUu3K80UcwqA8vaceThSzxrmDOFmAkbMKMdU-orX1Y4Dg=w2400';
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.display = "block";
+                } 
+                    else {
+                        x.style.display = "none";
+                        y.style.display = "none";
+                    }
+                }
+            
+            function showBath() {
+                var x, y;
+                x = document.getElementById("bath_dropdown");
+                y = document.getElementById("page_header").src='https://lh3.googleusercontent.com/CR4_ZEmcKHhc_RfC1Ot19J9ZHRHhFPBvKXZES4__nO8A-bNgVC3scPkKk95u_ny3sp1rN4OfjHQ1dBCqJpaJXY5tPMzcVICfVqarTX-A8VC8mDB7n5f5hItEowoP54LfUK4WxSVCzQ=w2400';
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.display = "block";
+                } 
+                    else {
+                        x.style.display = "none";
+                        y.style.display = "none";
+                    }
+                }
+            
+            function showSkincare() {
+                var x, y;
+                x = document.getElementById("skincare_dropdown");
+                y = document.getElementById("page_header").src='https://lh3.googleusercontent.com/rlffzGy_0Xdd9eEryAzPmBWhCEL-rlIrjgkwrnCLYtnyIfPadl7pXka2Yun3dWrLrXXHsRI8hASDduKhhPstGgZ4ia2UzYNYUxhzRw3ObUOQuY1yQBeuMPVFkrNwNQVwH5kbMzerEg=w2400';
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.display = "block";
+                } 
+                    else {
+                        x.style.display = "none";
+                        y.style.display = "none";
+                    }
+                }
+        </script>
+        
+        <style>
+             body {
+                 background-color: #F7F6F2;
+                 margin-top: 30px;
+                 width: 100%;
+             }
+             
+             header {
+                 text-align: center;
+             }
+             
+             .logo_header {
+                 text-align: center;
+                 width: 300px;
+                 height: 300px;
+             }
+             
+             .dev_header {
+                 font-family: 'Be Vietnam Pro', sans-serif;
+                 font-size: 25px;
+                 color: black;
+             }
+            
+            .more_header {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-size: 25px;
+                float: right;
+                color: black;
+             }
+            
+            .acct_header {
+                 font-family: 'Be Vietnam Pro', sans-serif;
+                 font-size: 25px;
+                color: black;
+             }
+            
+            .cart_header {
+                 font-family: 'Be Vietnam Pro', sans-serif;
+                 font-size: 25px;
+                 float: right;
+                color: black;
+             }
+            
+            .header_a:hover {
+                text-decoration: none;
+                color: #8B6527;
+            }
+            
+            .text1 {
+                margin-left: 350px;
+                font-family: 'Suranna', serif;
+                font-size: 90px;
+                margin-top: 150px;
+            }
+            
+            .text2 {
+                margin-left: 350px;
+                font-family: 'Suranna', serif;
+                font-size: 45px;
+                color: #505050;
+            }
+            
+            .headers {
+                width: 100%;
+                
+            }
+
+            .row1 {
+                margin-left: 20px;
+                text-align: center;
+            }
+            
+            .img1 {
+                width: 500px;
+                margin-right: 50px;
+                margin-left: -20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 30px;
+            }
+            
+             .img2 {
+                width: 500px;
+                margin-left: 50px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 30px;
+            }
+            
+            .home_categ_header {
+                font-family: 'Suranna', serif;
+                font-size: 70px;
+                color: black;
+                text-decoration: none;
+                background-image: url("https://lh3.googleusercontent.com/i2_sXSMYIgwgza4J-rQ0ZMcGI0JT2ldyTMn3xpd2PEBwBexv2ihb6Cvx8uG2LhnHfOAgv08M9iPH539sKkA8N38PXUxTuukeU8vdNCuWwymcHlA0AUegy52tgS3p5gMSAn9fcK9dDA=w600-h315-p-k");
+                background-position: center;
+                background-size: cover;
+                width: 550px;
+                margin-right: 35px;
+                margin-left: -20px;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 32px;
+                padding-left: 30px;
+                padding-right: 320px;
+                padding-bottom: 120px;
+                float: left;
+            }
+            
+            .hygiene_categ_header {
+                font-family: 'Suranna', serif;
+                font-size: 70px;
+                color: black;
+                text-decoration: none;
+                background-image: url("https://lh3.googleusercontent.com/lOdDRcvZgL6KKWqQQUt3Ah8sBj6aGF6VXfJ9kCqMfTnqFBe016nOe1YiUesiv4-5FCK0hf9x-yW6pdTUJPbJRPlKrevq8uaDcJgrwsi9jmLlHxLKTizTEcqZsbqfeXMojCcUkM-BNQ=w600-h315-p-k");
+                background-position: center;
+                background-size: cover;
+                width: 545px;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 32px;
+                padding-left: 300px;
+                padding-right: 30px;
+                padding-bottom: 120px;
+                float: left;
+            }
+            
+            .home_categ_header:hover, .hygiene_categ_header:hover {
+                color: #F7F6F2;
+                text-decoration: none;
+            }
+            .section {
+                float: left;
+            }
+            
+             .yellow {
+                background-image: url("https://lh3.googleusercontent.com/lnCOgpP4lmMSxcsrw1-oN0zCjUv1pgZkDX0FJWdl67SLsR2YpcDMNVqtj5wxaEn43x9vZe6HG0AUCyO2ZLoqsVUWEoWjFq75oK6MdVCXeWlpX2K4Iksv9MLOoF-aPpvr_QcTawLmuQ");
+                background-size: cover;
+                background-position: left;
+                padding-top: 30px;
+                padding-bottom: 100px;
+                text-align: left;
+                margin-left: 0px;
+            }
+            
+            .img3 {
+                width: 255px;
+                margin-left:-20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                overflow: hidden;
+            }
+            
+             .img4 {
+                width: 255px;
+                margin-left: 31px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+            }
+            
+             .img5 {
+                width: 255px;
+                margin-left: 31px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+            }
+            
+             .img6 {
+                width: 255px;
+                margin-left: 31px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+            }
+            
+            .img3, .img4, .img5, .img6 {
+                  transition: transform .5s ease;
+                }
+            
+            .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+                transform: scale(1.15);
+            }
+            
+             .div1 {
+                float: left;
+                background-color: #f7f6f2;
+                font-family: 'Suranna', serif;
+                font-size: 20px;
+                color: black;
+                text-decoration: none;
+                background-position: center;
+                background-size: cover;
+                margin-right: 35px;
+                padding-left: 30px;
+                padding-right: 300px;
+                padding-bottom: 50px;
+                margin-top: 40px;
+                width:35%;
+                margin-bottom: 40px;
+                border-color: #EFEEEA;
+                border-style: solid;
+                border-width: 10px;
+                border-radius: 20px;
+                
+            }
+            
+            .div2 {
+                float: left;
+                background-color: #f7f6f2;
+                font-family: 'Suranna', serif;
+                font-size: 20px;
+                color: black;
+                text-decoration: none;
+                background-position: center;
+                background-size: cover;
+
+                width: 60%;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                border-color: #EFEEEA;
+                border-style: solid;
+                border-width: 10px;
+                border-radius: 20px;
+            }
+            
+           
+            footer{
+                background-color: #EFEEEA; 
+                font-family: 'Poppins', sans-serif;
+                color:black;
+                padding-top: 30px;
+                padding-bottom: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+                text-align: left;
+                margin-left: 0px;
+                margin-top: 50px;
+            }
+            
+            .footer-table{
+                width:100%; 
+            }
+            
+            p {
+                 font-family: 'Be Vietnam Pro', sans-serif;
+                 font-size: 20px;
+            }
+            
+            .img3, .img4, .img5, .img6 {
+                padding-top: 40px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-bottom: 40px;
+                border-radius: 15px;
+                background-color: #C19B5E;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #EFEEEA;
+            }
+            
+            .items_dropdown {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                margin-bottom: 0px;
+                border-color: #EFEEEA;
+                border-style: solid;
+                border-width: 10px;
+                border-radius: 25px;
+                padding-bottom: 50px;
+            }
+            
+            .items_categ_header {
+                width: 120px;
+                background-color: #C19B5E;
+                padding: 15px;
+                margin-left: 70px;
+                margin-right: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 60px;
+                border-style: none;
+                
+            }
+            
+            .items_pic1 {
+                width: 200px;
+                border-style: solid;
+                border-radius: 15px;
+                border-width: 5px;
+                border-color: #C19B5E;
+                box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 60px;
+                margin-right: 15px;
+            }
+            
+            h3 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            
+            h4 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                color: #505050;
+                margin: 3px;
+            }
+            
+            .add2cart {
+                background-color:  #C19B5E;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin: 10px;
+                border-radius: 12px;
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                color: #EFEEEA;
+                border-style: none;
+            }
+            .add2cart:hover {
+                background-color: #EFC98C;
+                color: #505050;
+                text-decoration: none;
+            }
+            
+            .place_order {
+                background-color:  #C19B5E;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin: 10px;
+                border-radius: 12px;
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                color: #EFEEEA;
+                border-style: none;
+            }
+            .place_order:hover {
+                background-color: #EFC98C;
+                color: #505050;
+                text-decoration: none;
+            }
+            
+            .remove_btn {
+                background-color: #C19B5E;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin: 10px;
+                border-radius: 12px;
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                color: red;
+                border-style: solid;
+                border-color: red;
+                border-width: 3px;
+            }
+            .remove_btn:hover {
+                background-color: red;
+                color: #EFEEEA;
+                text-decoration: none;
+            }
+            
+            .cartname{
+                margin:0; 
+                padding:0;
+            }
+            
+            .cartprice{
+                margin:0; 
+                padding:0;
+                opacity: 0.7;
+            }
+            
+            .cart-items{
+                width:200px;
+            }
+            
+            .btn-outline-danger{
+                background-color: transparent;
+                border-radius: 0.25rem;
+            }
+            
+            .fix{
+                width:1%;
+            }
+            
+            .items-cont{
+                margin-bottom: 0.25rem;
+            }
+            
+            .clearfloat::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            @media (max-width: 1199px){
+                
+                .home_categ_header {
+                font-family: 'Suranna', serif;
+                font-size: 70px;
+                color: black;
+                text-decoration: none;
+                background-image: url("https://lh3.googleusercontent.com/i2_sXSMYIgwgza4J-rQ0ZMcGI0JT2ldyTMn3xpd2PEBwBexv2ihb6Cvx8uG2LhnHfOAgv08M9iPH539sKkA8N38PXUxTuukeU8vdNCuWwymcHlA0AUegy52tgS3p5gMSAn9fcK9dDA=w600-h315-p-k");
+                background-position: center;
+                background-size: cover;
+                width: 550px;
+                margin-bottom: 20px;
+                margin-left: 15vw;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 32px;
+                padding-left: 30px;
+                padding-right: 320px;
+                padding-bottom: 120px;
+                float: left;
+            }
+            
+            .hygiene_categ_header {
+                font-family: 'Suranna', serif;
+                font-size: 70px;
+                color: black;
+                text-decoration: none;
+                background-image: url("https://lh3.googleusercontent.com/lOdDRcvZgL6KKWqQQUt3Ah8sBj6aGF6VXfJ9kCqMfTnqFBe016nOe1YiUesiv4-5FCK0hf9x-yW6pdTUJPbJRPlKrevq8uaDcJgrwsi9jmLlHxLKTizTEcqZsbqfeXMojCcUkM-BNQ=w600-h315-p-k");
+                background-position: center;
+                background-size: cover;
+                width: 545px;
+                margin-left: 15vw;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 32px;
+                padding-left: 300px;
+                padding-right: 30px;
+                padding-bottom: 120px;
+                float: left;
+            }
+            .img3 {
+                width: 255px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                overflow: hidden;
+                margin-bottom: 20px;
+                margin-left: 15vw;
+            }
+            
+             .img4 {
+                width: 255px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+                 margin-bottom: 20px;
+            }
+            
+             .img5 {
+                width: 255px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+                 margin-left: 15vw;
+            }
+            
+             .img6 {
+                width: 255px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+            } 
+            #cart {
+                width: 550px;
+                margin-left: 13.5vw;
+                margin-bottom: 0vw;
+             }
+            .div2 {
+                width: 550px; 
+                margin-left: 13.5vw;
+            }
+            }
+            @media (max-width: 991px){
+                .home_categ_header {
+                margin-left: 7vw;
+            }
+            
+            .hygiene_categ_header {
+                margin-left: 7vw;
+            }
+            .img3 {
+                margin-left: 7vw;
+            }
+            
+             .img5 {
+                 margin-left: 7vw;
+            }
+    
+            #cart {
+                margin-left: 5.5vw;
+                margin-bottom: 0vw;
+             }
+            .div2 {
+                margin-left: 5.5vw;
+            }
+            .appliances_dropdown {
+                    width: auto;
+                    float: none;
+                }
+                
+                .items_pic1 {
+                    width: 150px;
+                    margin-left: 35px;
+                    margin-top 20px;
+                }
+                
+                h3 {
+                    font-size: 23px;
+                }
+                
+                h4 {
+                    font-size: 19px;
+                }
+                
+                .cell-text{
+                    width:20%;
+                }
+                
+                .cell-pic{
+                    width:30%;
+                    margin-right: 0px;
+                }
+                
+                .cell-header-cont{
+                    width:20%;
+                    column-width: 20%;
+                }
+                
+                
+                .cell-header{
+                    margin-right: 0px;
+                    margin-left:40px;
+                }
+                
+                .cell-cont{
+                    table-layout: fixed;
+                }
+                
+                table{
+                    table-layout: fixed;
+                }
+            }
+            
+            @media (max-width: 767px){
+                
+                .home_categ_header {
+                width: 510px;
+                margin-left: 0px;
+            }
+            
+            .hygiene_categ_header {
+                width: 510px;
+                margin-left: 0px;
+                padding-left: 280px;
+            }
+            .img3 {
+                width: 235px;
+                margin-left: 0px;
+            }
+            
+             .img4 {
+                width: 235px;
+            }
+            
+             .img5 {
+                width: 235px;
+                margin-left: 0px;
+            }
+            
+             .img6 {
+                width: 235px;
+            }  
+            #cart {
+                width: 510px;
+                margin-left: 0vw;
+                margin-bottom: 0vw;
+             }
+            .div2 {
+                width: 510px; 
+                margin-left: 0vw;
+            }
+            .items_pic1 {
+                    width: 100px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+            }
+                
+            h3, h4 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            td {
+                width: 100px;    
+            } 
+                
+                .cell-header{
+                    width:110px;
+                }
+                
+                .cell-text{
+                    width:20%;
+                }
+                
+                .cell-pic{
+                    width:30%;
+                    margin-right: 0px;
+                }
+                
+                .cell-header-cont{
+                    width:20%;
+                    column-width: 20%;
+                }
+                
+                
+                .cell-header{
+                    margin-right: 0px;
+                    margin-left:10px;
+                }
+                
+                .cell-cont{
+                    table-layout: fixed;
+                    column-span: none;
+                }
+                
+                table{
+                    table-layout: fixed;
+                }
+                
+            }
+            
+            @media (max-width: 585px){
+                
+                .home_categ_header {
+                font-family:    'Suranna', serif;
+                font-size: 15vw;
+                color: black;
+                text-decoration: none;
+                background-image: url("https://lh3.googleusercontent.com/i2_sXSMYIgwgza4J-rQ0ZMcGI0JT2ldyTMn3xpd2PEBwBexv2ihb6Cvx8uG2LhnHfOAgv08M9iPH539sKkA8N38PXUxTuukeU8vdNCuWwymcHlA0AUegy52tgS3p5gMSAn9fcK9dDA=w600-h315-p-k");
+                background-position: center;
+                background-size: cover;
+                width: 90vw;
+                margin-left: 1vw;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 32px;
+                padding-left: 30px;
+                padding-right: 320px;
+                padding-bottom: 120px;
+                float: left;
+            }
+            
+            .hygiene_categ_header {
+                font-family: 'Suranna', serif;            
+                font-size: 15vw;
+                color: black;
+                text-decoration: none;
+                background-image: url("https://lh3.googleusercontent.com/lOdDRcvZgL6KKWqQQUt3Ah8sBj6aGF6VXfJ9kCqMfTnqFBe016nOe1YiUesiv4-5FCK0hf9x-yW6pdTUJPbJRPlKrevq8uaDcJgrwsi9jmLlHxLKTizTEcqZsbqfeXMojCcUkM-BNQ=w600-h315-p-k");
+                background-position: center;
+                background-size: cover;
+                width: 90vw;
+                margin-left: 1vw;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 32px;
+                padding-left: 38vw;
+                padding-right: 30px;
+                padding-bottom: 120px;
+                float: left;
+            }
+            .img3 {
+                width: 40vw;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                overflow: hidden;
+                margin-bottom: 20px;
+                margin-left: 1vw;
+            }
+            
+             .img4 {
+                width: 40vw;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+                 margin-bottom: 20px;
+            }
+            
+             .img5 {
+                width: 40vw;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+                 margin-left: 1vw;
+            }
+            
+             .img6 {
+                width: 40vw;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 overflow: hidden;
+            }  
+            #cart {
+                width: 85vw;
+                margin-left: 0vw;
+                margin-bottom: 0vw;
+             }
+            .div2 {
+                width: 85vw; 
+                margin-left: 0vw;
+            }
+            
+                .cell-cont img{
+                    display: none; 
+                }
+                
+                .cell-header{
+                    width:0px;
+                }
+                
+                .cell-text{
+                    width:50%;
+                }
+                
+                .cell-pic{
+                    width:0px;
+                }
+                
+                .cell-header-cont{
+                    width:0px;
+                }
+                
+                .cell-cont{
+                    table-layout: fixed;
+                }
+                
+                table{
+                    table-layout: fixed;
+                }
+            }
+         </style>
+    </head>
+     
+    <body>
+        <div class="container">
+        <header>
+            <div class="logo">
+                <img class="logo_header" src="https://lh3.googleusercontent.com/aWMn0zF49fWd1PSdR4KZLunWB2z4fBNCm8bcPN8BfXC06iGpadiXbSQ8i-vUroYugySMvHt7TWET0s61tYA2nFYufdI4ABWcI4-k3BvF2YQ0_jip_3yi9dfJ9fHs8HrqQV45fYhb1w" alt="FINISH Logo"/>
+            </div>
+            
+            <div style="text-align: left;">
+                <a href="aboutus.html" class="dev_header header_a" >About Us</a>
+                <a href="aboutus.html" class="more_header header_a">More</a>
+            </div>
+            <div><hr style="border-width: 5px; border-radius: 5px; border-color: black;"/></div>
+            <div style="text-align: left;">
+                <a href="#cart" class="acct_header header_a">Your Account</a>
+                <a href="#cart" class="cart_header header_a">Cart</a>
+            </div>
+        </header>
+            
+            <br>
+            <br>
+        </div>
+        
+        <img class="headers" id="page_header" src="https://lh3.googleusercontent.com/DenzLc3nhHDAuSvcraJfMq8YGDj_dPdQu-rBKKXbS2CgO1TcCFmyjQ38wPdAv5e-qtPMmPD_vkUvQg5oynACTTBk1AG1cYRKvFQgARczELoKm8g4-T7zbH5OJRMr0jFvVnjHBwgPTw=w2400" alt="header">
+        
+            <br><br><br><br>
+        
+        <div class="container">
+            <a href="#" class="home_categ_header">Home</a>
+            <a href="#" class="hygiene_categ_header">Hygiene</a>
+        </div> 
+        
+        <br><br><br><br><br><br><br><br><br>
+        
+        <div class="container">
+            <div class="section">
+                        <a onclick="showAppliances()"> <img class="img3"  src="https://lh3.googleusercontent.com/EPj9oRgCUwXUoHqvUNMDdZOVIK-fAo4U9H68QjQxfTbjMh7gn23I6H277SYHhe1n6B6gFyEFrcaCZdgkdMXUSreX5qhgQ-bwqeUr2y0kV28Le9-hVQalSA4clQtf3vh9U-iBmycHkA" alt="Appliances Icon"/> </a>
+                        <a onclick="showStorage()"> <img class="img4" src= "https://lh3.googleusercontent.com/zcg5aSuugvfS4vyMo8KU8xj7b1dYgEOoh1OGrNtgEqhNWcMGYofTE0myCBREhuStSxAPDp9fBdp2IIA26r3Xuzl9QdsCHq-Fo9r5bcZEdp--amqfFkAmwX7c_UU75jMkGUvgza6sKw" alt="Storage Icon"/> </a>
+                </div>
+            <div class="section">
+                        <a onclick="showBath()"> <img class="img5" src="https://lh3.googleusercontent.com/_buzvKEuskcmY5tMcPGqphJc9v0fgiSGKkbDu01M3Wc9t1_IAD8L-t_IU9TvKw0uWWbAaAXyVmz81CUcIGnOONTc4Rq8qjCAyokGCbxrOwfocmhQByAtPb0AVFllhCdcGeJcTVPaQQ" alt="Bath Icon"/> </a>
+                        <a onclick="showSkincare()"> <img class="img6" src="https://lh3.googleusercontent.com/56baro6XG4o9BHwfsciP5IN3Dux05oIpw7diOwTKM1tDz6qGYphRMhl-oLOhwbX2VROWdqUTBqBbW1BW3wV-ULox4SDUo36lEkvXzMgZ0wUDB5t_FTe0UnygwrqqU89X6xC3ckb3zA" alt="Skincare Icon"/> </a>
+                </div>
+            <div class="items_dropdown" id="appliances_dropdown" style="display: none;">
+                <table class="cell-cont">
+                    <tr>
+                        <th class="cell-header-cont">
+                            <img class="items_categ_header cell-header" src="https://lh3.googleusercontent.com/EPj9oRgCUwXUoHqvUNMDdZOVIK-fAo4U9H68QjQxfTbjMh7gn23I6H277SYHhe1n6B6gFyEFrcaCZdgkdMXUSreX5qhgQ-bwqeUr2y0kV28Le9-hVQalSA4clQtf3vh9U-iBmycHkA" alt="Appliances Icon"/>
+                        </th>
+                        <td class="cell-text"></td>
+                        <td class="cell-pic"></td>
+                        <td class="cell-text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/vLDLXlw8QXJoGfJWmoY_WVYPYc1iSO2V5flIW-wLuBTtI0SDt1JtZhnLPzjah0ZFMsceYkL8SfjtRfJY6Bx30ug8IFCrSzEY3QZiBI_Gwx5ixSwExsxJFsFdWGyov3Zm-D8I6gLGUg" onmouseover="this.src='https://lh3.googleusercontent.com/dpDAgyhAfgis9h-lfw2h_mlZxP23-AJJP23C5L-iIYBqx4MhH1ROVXBqHAdbTwiMrYIgbTT21iyyQ_0AtivY55bAj4aPlES0XG7N17ef1kgZQwHM4kM4Xo-inwWPUhqzgR5RzjiuEQ';" onmouseout="this.src='https://lh3.googleusercontent.com/vLDLXlw8QXJoGfJWmoY_WVYPYc1iSO2V5flIW-wLuBTtI0SDt1JtZhnLPzjah0ZFMsceYkL8SfjtRfJY6Bx30ug8IFCrSzEY3QZiBI_Gwx5ixSwExsxJFsFdWGyov3Zm-D8I6gLGUg';" alt="Microwave"/>
+                        </td>
+                        <td>
+                            <h3>Microwave</h3>
+                            <h4>4,500.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addMicrowave()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/8hgI34EwvjB6uQlV0OxpboevgcrbYEvb2UK6Nv6NhCxUuRdKhWk9dt6AwTmYakQLBYdqW2PTjHfXg47vyYGMNid11rTYzGkvUODYnBXGZ02aOQ9wJOVdSJ8vyYTNSgVNMiY9Iv-A4g" onmouseover="this.src='https://lh3.googleusercontent.com/RRVQ6JO2eUdcxsn1IwiMAzRrdgPfky3byI3YX3rkeCubE8uH261uJx4J73p4TvqLmYjuYgR0JYq_t9IReyqKdnQ5w9cTneZ9rJvoAFUb70Qlu_oig-4X5yYpOWNMEDmfF4BejrSV6A';" onmouseout="this.src='https://lh3.googleusercontent.com/8hgI34EwvjB6uQlV0OxpboevgcrbYEvb2UK6Nv6NhCxUuRdKhWk9dt6AwTmYakQLBYdqW2PTjHfXg47vyYGMNid11rTYzGkvUODYnBXGZ02aOQ9wJOVdSJ8vyYTNSgVNMiY9Iv-A4g';" alt="Kettle"/>
+                        </td>
+                        <td>
+                            <h3>Kettle</h3>
+                            <h4>1,200.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addKettle()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/obw7qAO67O2TnU9nHppVRJoumkfp4-q577eMvYFz2lgEi42EJRLxE3ALkqCDK_KdUT1l7Zb84sSMXc1zH7kILWGKd9HcqSAvlDgiJcg4cZ6GavYlsJgMc31kLs5bwrlw6K9sYS10OQ" onmouseover="this.src='https://lh3.googleusercontent.com/RI9_c62d4cuVROnDgSoI7sId7gsFM2P3SSAbFPyiSmexRwA7vryLqk8axcXrwficFqTZuCP-kgYuuxU3LNXs3HYrRRPHMbqxttfPTxfYviD2uHiwuFN7qFE9ExXlbVPwLHQh8Zv_jQ';" onmouseout="this.src='https://lh3.googleusercontent.com/obw7qAO67O2TnU9nHppVRJoumkfp4-q577eMvYFz2lgEi42EJRLxE3ALkqCDK_KdUT1l7Zb84sSMXc1zH7kILWGKd9HcqSAvlDgiJcg4cZ6GavYlsJgMc31kLs5bwrlw6K9sYS10OQ';" alt="Toaster"/>
+                        </td>
+                        <td>
+                            <h3>Toaster</h3>
+                            <h4>1,500.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addToaster()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/nrtVZgWCIJz-vMcFC90oTVUpTNJxug_lhsMj8My_oH1yjmdBpRLRmAs0epROEnkI6hTtT277PcjElSFZxSWMf-Befg0jszSSQqgvhj4Dk_9uDuUlE0a0LWhStnJki-3rdnXfyebmIA" onmouseover="this.src='https://lh3.googleusercontent.com/CI4fmRyEko1aO8UyokgFAGJlVHJOSlxmefKJqVfTBapLbk8ngK8hszVZz3A24DzLs9J7VR7bTg8d1vFoCGQ7rGHH60lEmHvRCG2buQdomNkS7qflC5RY5VWSJOmWJM1ObflOjoBSSg';" onmouseout="this.src='https://lh3.googleusercontent.com/nrtVZgWCIJz-vMcFC90oTVUpTNJxug_lhsMj8My_oH1yjmdBpRLRmAs0epROEnkI6hTtT277PcjElSFZxSWMf-Befg0jszSSQqgvhj4Dk_9uDuUlE0a0LWhStnJki-3rdnXfyebmIA';" alt="Blender"/>
+                        </td>
+                        <td>
+                            <h3>Blender</h3>
+                            <h4>2,000.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addBlender()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/23_coY42ySdK0lRViGB6gOhwITdquKOI0qQWveuF8oci9vAr05o_ysqCO3CBUVOYZKBFi0xDvyQ7wpGPPSuhe3TI4Fqo3k78ta_hVJT57tA4z4NcSS9fN7GZ6HOLjeQwzjR6a96Anw" onmouseover="this.src='https://lh3.googleusercontent.com/URHEd1q4BzrlZP8C1C3hqwM_psG50R-8SbcNxApSs_tNl_4DxjXDd6jRRTPL7gulf8OsW6RDPgJYpJsDlW1hRtG8Rs-383HSgP-XHQyBTAawjJ5yoZyuKdfIaVdXlLuCPOCyya0IFw';" onmouseout="this.src='https://lh3.googleusercontent.com/23_coY42ySdK0lRViGB6gOhwITdquKOI0qQWveuF8oci9vAr05o_ysqCO3CBUVOYZKBFi0xDvyQ7wpGPPSuhe3TI4Fqo3k78ta_hVJT57tA4z4NcSS9fN7GZ6HOLjeQwzjR6a96Anw';" alt="Washing Machine"/>
+                        </td>
+                        <td>
+                            <h3>Washing Machine</h3>
+                            <h4>15,000.00 PHP</h4>
+                            <h4>Delivery Time: 7 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addWashingMachine()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/ej0r2_WWjN2fjmcEOy-trJXrapRi7Esa1d5PDSEdfhz1p83Csnn0KLsnRO5OQ4-O4vR-R2NcK0JNRRu7shRdDYHIqbcweNXE7iXPqNpzsyM_s7loCt1LCTNpcnnubzmd3w5kyHybXg" onmouseover="this.src='https://lh3.googleusercontent.com/e1ujE0HLR3FIW-XjmpiYA5JT5aXLHlcxPk_ic9wRTr9n7S-1DDFZxHxRAir4TLiS2OsUaEooXnDUo_xbAZcvPDKc-rmyD7OqqTbNkB1oiIzAiyF0WawiCTOvsVOpGJ8EdXSGhoQWuA';" onmouseout="this.src='https://lh3.googleusercontent.com/ej0r2_WWjN2fjmcEOy-trJXrapRi7Esa1d5PDSEdfhz1p83Csnn0KLsnRO5OQ4-O4vR-R2NcK0JNRRu7shRdDYHIqbcweNXE7iXPqNpzsyM_s7loCt1LCTNpcnnubzmd3w5kyHybXg';" alt="Flat Screen TV"/>
+                        </td>
+                        <td>
+                            <h3>Flat Screen TV</h3>
+                            <h4>14,000.00 PHP</h4>
+                            <h4>Delivery Time: 5 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addFlatscreenTV()">Add to cart</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="items_dropdown" id="storage_dropdown" style="display: none;">
+                <table class="cell-cont">
+                    <tr>
+                        <th>
+                            <img class="items_categ_header cell-header" src="https://lh3.googleusercontent.com/zcg5aSuugvfS4vyMo8KU8xj7b1dYgEOoh1OGrNtgEqhNWcMGYofTE0myCBREhuStSxAPDp9fBdp2IIA26r3Xuzl9QdsCHq-Fo9r5bcZEdp--amqfFkAmwX7c_UU75jMkGUvgza6sKw" alt="Storage Icon"/>
+                        </th>
+                        <td class="cell-text"></td>
+                        <td class="cell-pic"></td>
+                        <td class="cell-text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/hC_CzMPDhEx68u1fH_2NeoTODysjLb8JSbKN6bqpunFdhtk5SoJkmCYHaiWklJ1RzjDE7dqmLEliIH3CMnnoChla6b-7l26HK58HD0Zri0roGQMtGR8rc-3B2CueXp6RMyhQG_yiog" onmouseover="this.src='https://lh3.googleusercontent.com/9WdC-QCozZKrF6H3_lYXkqTVwPl0gtq_JC0vUts8GHzu4kwsZiieP7Pu37R3-0rAbfxHxbo6PsnSaxZO3ZQs3LDqZXVCEkGpl_Jt9iCdOvvdNA6uYJbSS1q2Zs97PLty3tRCyk6ZUQ';" onmouseout="this.src='https://lh3.googleusercontent.com/hC_CzMPDhEx68u1fH_2NeoTODysjLb8JSbKN6bqpunFdhtk5SoJkmCYHaiWklJ1RzjDE7dqmLEliIH3CMnnoChla6b-7l26HK58HD0Zri0roGQMtGR8rc-3B2CueXp6RMyhQG_yiog';" alt="Acrylic Container"/>
+                        </td>
+                        <td>
+                            <h3>Acrylic Container</h3>
+                            <h4>4,500.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addAcrylicContainer()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/xW2Bcl2OuBDULmP4YeHdVFGIwt1gZ3_SR-vf2QtRY-6w2NAE6_4vRqCan7ZAFa744A9h3I7Adqfh3HjFyFLYmbScuTc0_NwvYgIOgFYuyaTJoN_g4kwr6Y0gNh7rXuc1YWFjpEzrZg" onmouseover="this.src='https://lh3.googleusercontent.com/bxg1-zBRQGKo213kKMKxKVNUhL1Gh7J-IysswW9RNLz10BdevJRha6z16oYvH1Atwoc-4L8WPntLIrNgU0cfL5RetENANjje4BHTfKl2mUk2jClW9-qJlojAg0PA46bNFcKCOiaKgw';" onmouseout="this.src='https://lh3.googleusercontent.com/xW2Bcl2OuBDULmP4YeHdVFGIwt1gZ3_SR-vf2QtRY-6w2NAE6_4vRqCan7ZAFa744A9h3I7Adqfh3HjFyFLYmbScuTc0_NwvYgIOgFYuyaTJoN_g4kwr6Y0gNh7rXuc1YWFjpEzrZg';" alt="Shoe Rack"/>
+                        </td>
+                        <td>
+                            <h3>Shoe Rack</h3>
+                            <h4>1,200.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addShoerack()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/dYJfL0Q6pbVhfpqnF8B1qaola1DbCJFLVklZ2qhOhWTOWdHGWp2UVd-IRx6sm6L0SsI7Ndb7FR1XRpG6AJB2qcRv7gMdUrO0Rc11JuDUBSK5tR51ZCAfs1-KOZ-FwDgliGkCEUan3g" onmouseover="this.src='https://lh3.googleusercontent.com/4q2eaGAtWLF_3yII1-1hUYsWnzC2zpo9NbHTcSOSxxpOvprd2A2YRDaB_dpSQD7t6WTb3qkXJbnBgFU5ER6swCgi4UlYvD8fd5bDiL7LnuKeiLXK2AnLEcoKGzA1B7r0ceBP9XrUiw';" onmouseout="this.src='https://lh3.googleusercontent.com/dYJfL0Q6pbVhfpqnF8B1qaola1DbCJFLVklZ2qhOhWTOWdHGWp2UVd-IRx6sm6L0SsI7Ndb7FR1XRpG6AJB2qcRv7gMdUrO0Rc11JuDUBSK5tR51ZCAfs1-KOZ-FwDgliGkCEUan3g';" alt="Jewelry Organizer"/>
+                        </td>
+                        <td>
+                            <h3>Jewelry Organizer</h3>
+                            <h4>1,500.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addJewelryOrganizer()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/bK_2-2KCyruSsxaz87FBOKwy-juzGanzngh8l2XFPsho90Eib9hAvSEWOnRJ03sxKoU57RhXaN-g7KXPm1GJsNcPU0lwzqQKOb6y1DHQT1u7EC_2JAPI_IP9mIhRJ1L_TH1mVF6aCg" onmouseover="this.src='https://lh3.googleusercontent.com/9pEr7B9F7vUAQzNZRO7qd6JkqBCjCQr-k8vip-EhEvZI5Pec590N73NVTRXoiGRRX86OdMGOXm8jfO7L9QTtsXfpZ6gzTQ6aXNXt7YLrLKSrNSmqidBv6OVtn8k-254ngFg9nV7SjA';" onmouseout="this.src='https://lh3.googleusercontent.com/bK_2-2KCyruSsxaz87FBOKwy-juzGanzngh8l2XFPsho90Eib9hAvSEWOnRJ03sxKoU57RhXaN-g7KXPm1GJsNcPU0lwzqQKOb6y1DHQT1u7EC_2JAPI_IP9mIhRJ1L_TH1mVF6aCg';" alt="Book Case"/>
+                        </td>
+                        <td>
+                            <h3>Book Case</h3>
+                            <h4>2,000.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addBookcase()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/VuhWr7WvdVDC_yB_gX7NnQ7afiYZtFqSnPDMyfCgW1xvLY4RMq2cRn7kr05ihL_yNZ0QS4Nz_0mH5nDQZm4wopolvpFFO7_6oDgxz7otVjniGJLb9YbfVOkgRFmnxvbtJD8AisaFjA" onmouseover="this.src='https://lh3.googleusercontent.com/sl-CWyrMh_hu1B-QS_aciL3JZhu6kFUIC3qEPr9u9lPQbYI4WC2nUZsgaSL8b2omwE6Y0kgDqzUKNotBFruGGdkRHm_bADiUfykGX6LkR-3wzeiGiFNhOZzn3PkTkDJwJ8WwhzN0jA';" onmouseout="this.src='https://lh3.googleusercontent.com/VuhWr7WvdVDC_yB_gX7NnQ7afiYZtFqSnPDMyfCgW1xvLY4RMq2cRn7kr05ihL_yNZ0QS4Nz_0mH5nDQZm4wopolvpFFO7_6oDgxz7otVjniGJLb9YbfVOkgRFmnxvbtJD8AisaFjA';" alt="Utility Cart"/>
+                        </td>
+                        <td>
+                            <h3>Utility Cart</h3>
+                            <h4>15,000.00 PHP</h4>
+                            <h4>Delivery Time: 7 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addUtilityCart()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/mWIycPOWGyzad5h1HO9QpBBYRn6NKyKx2y0QxelnrrWvpRmaP55A7Z5zC_6Oc9qD7dx2uJdcAoorMddWUK3S4qb7CN8mBvxutVvJsK024I2zmfxSiWcLcqHub5e3vD5KpxNvPVNX0Q" onmouseover="this.src='https://lh3.googleusercontent.com/TbyiFXbovyVwnQfI6JgQyWeegwj0cD3mNLsXsi7J6QLgOkwNeq5G0BGjctwNO2cxoAfhEik-4IwQIz5VwGm17rNPLFZWTEEpTqsn6dHZX-oTn7iWe7u4H2BKCkhCt-2g6gcTKcNXyQ';" onmouseout="this.src='https://lh3.googleusercontent.com/mWIycPOWGyzad5h1HO9QpBBYRn6NKyKx2y0QxelnrrWvpRmaP55A7Z5zC_6Oc9qD7dx2uJdcAoorMddWUK3S4qb7CN8mBvxutVvJsK024I2zmfxSiWcLcqHub5e3vD5KpxNvPVNX0Q';" alt="Cabinet"/>
+                        </td>
+                        <td>
+                            <h3>Cabinet</h3>
+                            <h4>14,000.00 PHP</h4>
+                            <h4>Delivery Time: 5 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addCabinet()">Add to cart</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="items_dropdown" id="bath_dropdown" style="display: none;">
+                <table class="cell-cont">
+                    <tr>
+                        <th>
+                            <img class="items_categ_header cell-header" src="https://lh3.googleusercontent.com/dn4q5dT45Tnuuc39lFmgMdw1q3ETTax3sHJykEdpp4blxgX7DzU7lZTdf3W7fUHv7t-HSloj-oYBXgtLt4JZaGVdjfd5HtDBfB1boD8JxJyxaCTqjhH9VXAsbVgvSZCYNijo4J5nxw" alt="Bath Icon"/>
+                        </th>
+                        <td class="cell-text"></td>
+                        <td class="cell-pic"></td>
+                        <td class="cell-text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/YXEwRXlHI0LzmHYFBx3C3KlkcIaNjU97wl4_YlrSiTAdZusouMfLK61wqlbrrcI8MPkNNjKVU0MDSsfxhxpVEGRZk0i_howQplGsMBJ3HJZ7Cts9e0yIidZaQ0bSeUalMNkK4ymnOg" onmouseover="this.src='https://lh3.googleusercontent.com/q2RaeV0QCNng-1wmL48mT-qZi9Arwa2J2EuZlVCaiudLP1BH23HDINqgkeFE5LJjhnHmOlBMfsLxl7QoP3kTk4ddnk-6M_mPiDogRcFKKRFII_r1BYnIVPE1Zh4NNfm7WYA971oV9A';" onmouseout="this.src='https://lh3.googleusercontent.com/YXEwRXlHI0LzmHYFBx3C3KlkcIaNjU97wl4_YlrSiTAdZusouMfLK61wqlbrrcI8MPkNNjKVU0MDSsfxhxpVEGRZk0i_howQplGsMBJ3HJZ7Cts9e0yIidZaQ0bSeUalMNkK4ymnOg';" alt="Loofah"/>
+                        </td>
+                        <td>
+                            <h3>Loofah</h3>
+                            <h4>230.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addLoofah()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/6JSNuKlf7xWBGm4ZKxDwSGeN4eClBWuwST_K-K9SinLTVN0eBtc4C4koS2Yzh9RCmVaELe007e6LLHm_Jj4wkdLq8jQFw4et7zur_Uv6BPqLiCXZmDw_pPfMaAn5KLeW8uQgebOuoA" onmouseover="this.src='https://lh3.googleusercontent.com/zfWgXwoO-TqdNzt8lnu-D8aUlxcP8DLoX_ScYpg0KuprGWDdlDrOpKvX9XpuvevmeaBCxOiOjlgECYVbtazNtfW8Vq0NoUuzFtk4JxWsLjVx6pQxRJxHGxRe33Bli3Z7pMmsl_L5SA';" onmouseout="this.src='https://lh3.googleusercontent.com/6JSNuKlf7xWBGm4ZKxDwSGeN4eClBWuwST_K-K9SinLTVN0eBtc4C4koS2Yzh9RCmVaELe007e6LLHm_Jj4wkdLq8jQFw4et7zur_Uv6BPqLiCXZmDw_pPfMaAn5KLeW8uQgebOuoA';" alt="Towel"/>
+                        </td>
+                        <td>
+                            <h3>Towel</h3>
+                            <h4>400.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addTowel()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/1B614lGxYMcW6HvJbXU7f1ZSzRObhQznqmskZ44930Fxvna2sANyhEx4AL4PtH1G_Wql36D1803khzZk7MRF7KIQHEhRWEGAk67Q0MYxNhmtBSwtex_b4nUaAjKkPQnYcQ8zDuKp9g" onmouseover="this.src='https://lh3.googleusercontent.com/4xVIFXyBUyyHNOTkBD3D9j7EsfBn3LtcGc1b6zvAv2nVm6NZJHPUz9tAwzzweDpFPsgn653rz07EESibkF7WmthTVvDUkF6Fj_o_Om2W1TkqR7yjwXpsz94tI_YBqNEtJrrijLExcA';" onmouseout="this.src='https://lh3.googleusercontent.com/1B614lGxYMcW6HvJbXU7f1ZSzRObhQznqmskZ44930Fxvna2sANyhEx4AL4PtH1G_Wql36D1803khzZk7MRF7KIQHEhRWEGAk67Q0MYxNhmtBSwtex_b4nUaAjKkPQnYcQ8zDuKp9g';" alt="Body Wash"/>
+                        </td>
+                        <td>
+                            <h3>Body Wash</h3>
+                            <h4>450.00 PHP</h4>
+                            <h4>Delivery Time: 4 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addBodyWash()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/aGAC84STHppP3Umsct3rESImu6LDKt8L-MvGEAOIdjoIUG-qPav6mWvuJADBdyfYA4cyg4eF31rJsUIhs_nA1ik8Q-Ga1g-Z3P_zRrgN2X91QRefg02Nr5dy9XdWTFCGzo5o7MOzjg" onmouseover="this.src='https://lh3.googleusercontent.com/B-neW6-DPyptDW5Co1mouQtDWWQN7OrjKUyTXlIEmeAmBS4pzJcWOGB9xhMSdNg4VLPeyoiTY2UQCsod_hLqmAcCvtXgJgWllX0ITPsoxQdhxmbyhI2YirJwBRa1OMTbq0l4hGx-Ng';" onmouseout="this.src='https://lh3.googleusercontent.com/aGAC84STHppP3Umsct3rESImu6LDKt8L-MvGEAOIdjoIUG-qPav6mWvuJADBdyfYA4cyg4eF31rJsUIhs_nA1ik8Q-Ga1g-Z3P_zRrgN2X91QRefg02Nr5dy9XdWTFCGzo5o7MOzjg';" alt="Shampoo"/>
+                        </td>
+                        <td>
+                            <h3>Shampoo</h3>
+                            <h4>500.00 PHP</h4>
+                            <h4>Delivery Time: 4 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addShampoo()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/QeRmDCWKIbWkzlQXXbHhDrg_tItts4K_kGwxi7HXhdnaWGGU38ba3e8CB3MXJj57EptibIeFcN6C9NbgJSvWObH_Y1vvJWeqy6_rxR5QLMbMaWudi-YtGMUsZENXAVvwUnY8z4vYZA" onmouseover="this.src='https://lh3.googleusercontent.com/Bm6gQatiTvWl-ErrUrb2Eqz4AhZbDKf5idXheN2XI_zdkO4A45Na6t-Fy7oRw1VERoKOFHpHeZE4smkzEEDQMc4mHTyjdsfrIB6z-x0Q2NZrv45v_QudpPk-CHhqsSuRsbMnoVF_yw';" onmouseout="this.src='https://lh3.googleusercontent.com/QeRmDCWKIbWkzlQXXbHhDrg_tItts4K_kGwxi7HXhdnaWGGU38ba3e8CB3MXJj57EptibIeFcN6C9NbgJSvWObH_Y1vvJWeqy6_rxR5QLMbMaWudi-YtGMUsZENXAVvwUnY8z4vYZA';" alt="Bath Bomb"/>
+                        </td>
+                        <td>
+                            <h3>Bath Bomb</h3>
+                            <h4>100.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addBathbomb()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/yrpPh6NtnnNDhCQesV8JxhwxAMtYc1RjOFMyhia-4sfRH8MVUJEav6zCUZZ4MAvKw87E7a9bJQ7Si4NA9RhddLRVYPXf0PTJKdv7g-9v2AV79bG-BLE82iC1mh7upbOnPNL61ipGHQ" onmouseover="this.src='https://lh3.googleusercontent.com/SBNicpYWT2deFwKaHYMlIG3q3wTAPbPxcAmdxw8qcujw3ZNeNBHDjt-p8ismLFNvTWC0jAdK7_ldJdgpKIP8byhWw9hQEV4Q157v2Rr6mYUEzGccbsKy4HFAZWatywUeJD7jhBMHfw';" onmouseout="this.src='https://lh3.googleusercontent.com/yrpPh6NtnnNDhCQesV8JxhwxAMtYc1RjOFMyhia-4sfRH8MVUJEav6zCUZZ4MAvKw87E7a9bJQ7Si4NA9RhddLRVYPXf0PTJKdv7g-9v2AV79bG-BLE82iC1mh7upbOnPNL61ipGHQ';"  alt="Conditioner"/>
+                        </td>
+                        <td>
+                            <h3>Conditioner</h3>
+                            <h4>490.00 PHP</h4>
+                            <h4>Delivery Time: 4 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addConditioner()">Add to cart</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="items_dropdown" id="skincare_dropdown" style="display: none;">
+                <table class="cell-cont">
+                    <tr>
+                        <th>
+                            <img class="items_categ_header cell-header" src="https://lh3.googleusercontent.com/56baro6XG4o9BHwfsciP5IN3Dux05oIpw7diOwTKM1tDz6qGYphRMhl-oLOhwbX2VROWdqUTBqBbW1BW3wV-ULox4SDUo36lEkvXzMgZ0wUDB5t_FTe0UnygwrqqU89X6xC3ckb3zA" alt="Skincare Icon"/>
+                        </th>
+                        <td class="cell-text"></td>
+                        <td class="cell-pic"></td>
+                        <td class="cell-text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/n7NlH3oFFy92376Zj-YNb8fLkdP9KCmTQLNiMicqihPRj1Pc8PtgCstd7tSsIfwwP3kXKKi0PfMR2MO3dHhaFVf0BoU5yIiomwhKFRTNeu2gzIVDuQ6ky4Oj-1po98ShYGJfHFKyPg" onmouseover="this.src='https://lh3.googleusercontent.com/1bWoU4n9p_mCbGsKugHQ-vLoJ0VVKEdRKX7ch0ytZnMgPFOwRd45GoRPNfCy_IBmSQjB7tYUNTjND4lk0zyEINdq-JPy-McxWZejYcEHcNZREAEcFfsiw-iveyEauVbtWiZ--jDypg';" onmouseout="this.src='https://lh3.googleusercontent.com/n7NlH3oFFy92376Zj-YNb8fLkdP9KCmTQLNiMicqihPRj1Pc8PtgCstd7tSsIfwwP3kXKKi0PfMR2MO3dHhaFVf0BoU5yIiomwhKFRTNeu2gzIVDuQ6ky4Oj-1po98ShYGJfHFKyPg';" alt="Toner"/>
+                        </td>
+                        <td>
+                            <h3>Toner</h3>
+                            <h4>4,500.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addToner()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/-drS0aLwP04CksY6FBdICqCPpAFtt8uGmXpnWaOcPNIiFTd05SHfRhKSRn-jgGDsOXF-hlaAgLzcEeCqTI03IAVbSZDrl9dhTyAHsCMbNfBxZIvwAst5qVvi8ObzyAnzJIIVe34iVQ" onmouseover="this.src='https://lh3.googleusercontent.com/CL7uUo1NL5X7Ew1yc2Oq4ZMjkqPpumTHsJjz8IPIruUmFrr1TrSnwR9obCQVpykQCatMZbSpjOxDfOduFbO0ycXNPAZxt2p8N5F5Ic4kbyyKmxfenmHLSGbIqI45ZMD1WcStey8Ctg';" onmouseout="this.src='https://lh3.googleusercontent.com/-drS0aLwP04CksY6FBdICqCPpAFtt8uGmXpnWaOcPNIiFTd05SHfRhKSRn-jgGDsOXF-hlaAgLzcEeCqTI03IAVbSZDrl9dhTyAHsCMbNfBxZIvwAst5qVvi8ObzyAnzJIIVe34iVQ';" alt="Facial Wash"/>
+                        </td>
+                        <td>
+                            <h3>Facial Wash</h3>
+                            <h4>1,200.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addFacialWash()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/ghbECfizB7NT43B7--XiJmcWRHj0FVa3D1Vn5QEH99JCdSJLY084WmyyZ1m-FQKDhprtugpENwQ0KjBOfs2o7fFnwiENNdKgCtKdVzqrrHnhWCunJ-Ngaz8H5Dv8y9Aamjc712Ip1w" onmouseover="this.src='https://lh3.googleusercontent.com/YR-UfwvSWgyxL-o7KraXAB6ScKu47tjTYPqXbOSENPUH4DI8agrQXfEevPN0Y14sh7QT7GNTOtbJdiKgGX3COfwS_GvgPcpunyv-Bo3LigN6elq_7M59lC9qFE5yUsGhFioGhrdItA';" onmouseout="this.src='https://lh3.googleusercontent.com/ghbECfizB7NT43B7--XiJmcWRHj0FVa3D1Vn5QEH99JCdSJLY084WmyyZ1m-FQKDhprtugpENwQ0KjBOfs2o7fFnwiENNdKgCtKdVzqrrHnhWCunJ-Ngaz8H5Dv8y9Aamjc712Ip1w';" alt="Sunscreen"/>
+                        </td>
+                        <td>
+                            <h3>Sunscreen</h3>
+                            <h4>1,500.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addSunscreen()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/Gk3zZ2CFq7bhvwX7jN-d9T_XTJvVgSMo8Ti5eBHk-NXGj2aWSqEJLS0rnlHXo8It930p3rQk45oPey2RfixSilCI6fyh_7e6TXZel7laCIljmVxDjngFYio55wOESJiqoo_h9ytY-A" onmouseover="this.src='https://lh3.googleusercontent.com/rBuaRUujb_hsnJsP6e4Q4iQYTiGTZ772ZChw5JPVIIYF22tmwtw3n3zYPvsQ_5L5bLUgcvR9yxnLNslXlmGYbTR-0YVgZdQyzjVLGuijQX6NVlzwCNENqu13gBDvWvlZLPIxE9rnow';" onmouseout="this.src='https://lh3.googleusercontent.com/Gk3zZ2CFq7bhvwX7jN-d9T_XTJvVgSMo8Ti5eBHk-NXGj2aWSqEJLS0rnlHXo8It930p3rQk45oPey2RfixSilCI6fyh_7e6TXZel7laCIljmVxDjngFYio55wOESJiqoo_h9ytY-A';" alt="Moisturizer"/>
+                        </td>
+                        <td>
+                            <h3>Moisturizer</h3>
+                            <h4>2,000.00 PHP</h4>
+                            <h4>Delivery Time: 3 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addMoisturizer()">Add to cart</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/XmCNqrZSrvIKWYoQGoUT80F0vrN2A98frY8W8b4aL9k4lhJBi6EeKXI4joCE2fWMr8BHvrRwxtY1eq2JOFpuvumh1xAk_8QNoZ0-k31PllFxajRdGV1YniNxZKFeFAT0TntmgK9v5g" onmouseover="this.src='https://lh3.googleusercontent.com/uJYPr0XHUMY4iS96sNU6X5IHeIPIn6kgcEFr7n-gYJ1Fca95gQSQWARsPBFD1bXrzKGUi7NP_osfnR1IJgCo44lap9DdlWEmALx4a0aA9AvkE9Mu5Jsfc2eTqjmHE7V1WE4T0XqXRw';" onmouseout="this.src='https://lh3.googleusercontent.com/XmCNqrZSrvIKWYoQGoUT80F0vrN2A98frY8W8b4aL9k4lhJBi6EeKXI4joCE2fWMr8BHvrRwxtY1eq2JOFpuvumh1xAk_8QNoZ0-k31PllFxajRdGV1YniNxZKFeFAT0TntmgK9v5g';" alt="Facial Mask"/>
+                        </td>
+                        <td>
+                            <h3>Facial Mask</h3>
+                            <h4>15,000.00 PHP</h4>
+                            <h4>Delivery Time: 7 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addFacialMask()">Add to cart</button>
+                        </td>
+                        <td>
+                            <img class="items_pic1" src="https://lh3.googleusercontent.com/g82RkyCD-YsFjRkTpA7blnnAoiX4mbADXAmus5Q-4EmXrksQbZhtndPMOvg0Hqa7I3-zAKtlHidAQx30KwKplPvYiM4hHFRQTxOHP1kX7KFsab9gyIbB5rAdo2o7kjS0pqtU-5Bu9Q" onmouseover="this.src='https://lh3.googleusercontent.com/Uvaie7aEz2OoC6RmQNS9l0lP8c9vYaOTS6R80_311iDSrZsByHG_Z8XRHDue8HHk7b7Z9eQWxekKlJGZoeBmNtNEQt4Omr-lEtcSQCpDJP0xq8OMzmASKr_vDo95PYjOWE66wLpjlg';" onmouseout="this.src='https://lh3.googleusercontent.com/g82RkyCD-YsFjRkTpA7blnnAoiX4mbADXAmus5Q-4EmXrksQbZhtndPMOvg0Hqa7I3-zAKtlHidAQx30KwKplPvYiM4hHFRQTxOHP1kX7KFsab9gyIbB5rAdo2o7kjS0pqtU-5Bu9Q';" alt="Lip Balm"/>
+                        </td>
+                        <td>
+                            <h3>Lip Balm</h3>
+                            <h4>14,000.00 PHP</h4>
+                            <h4>Delivery Time: 5 days</h4>
+                            <br>
+                            <button class="add2cart" onclick="addLipbalm()">Add to cart</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+        
+        <div class="container">
+            <div class="clearfloat">
+            <div class="div1" id="cart">
+                <div class="fix">
+                 <h1 style="margin-top: 20px;">Cart</h1>
+                <div class="cart-items" id="cart-items">
+                </div>
+                </div>
+            </div>
+            
+            
+            <div class="div2">
+                <h1 style="margin-top: 20px;">Delivery Details</h1>
+                <form method="GET" action="http://sirjm.infinityfreeapp.com/checkout.php">
+                    <div class="my-3">
+                        <label for="cust_name" class="form-label">Name:</label>
+                        <input id="cust_name" class="form-control" type="text" name="cust_name">
+                    </div>
+                    <div class="my-3">
+                        <label for="cust_email" class="form-label">Email address:</label>
+                        <input id="cust_email" class="form-control" type="text" name="cust_email">
+                    </div>
+                    <div class="my-3">
+                        <label for="cust_addr">Delivery address</label>
+                        <textarea class="form-control" rows="2" name="cust_addr" id="cust_addr"></textarea>
+                    </div>
+                    <input type="hidden" id="cust_order" name="cust_order">
+                    <input class="btn place_order" type="submit" value="Place Order" onclick="submitItems()">
+                </form>
+            </div>
+        </div>
+        </div>   
+        </div> 
+
+        <footer>
+            <table class="footer-table">
+                <tr>
+                    <td class="footer-info">
+                        <p> &copy; FINISH. 2022.</p>
+                        <ul style="list-style-type: none;">
+                            <li><p>FAQs</p></li>
+                            <li><p>Privacy Policy</p></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+        
+        <script> 
+            var cust_order = [];
+
+            var microwave = {
+                prod_name: "Microwave",
+                prod_price: 4500.00
+            }
+            
+            var kettle = {
+                prod_name: "Kettle",
+                prod_price: 1200.00
+            }
+            
+            var toaster = {
+                prod_name: "Toaster",
+                prod_price: 1500.00
+            }
+            
+            var blender = {
+                prod_name: "Blender",
+                prod_price: 2000.00
+            }
+            
+            var washingmachine = {
+                prod_name: "Washing Machine",
+                prod_price: 15000.00
+            }
+            
+            var flatscreentv = {
+                prod_name: "Flat Screen TV",
+                prod_price: 14000.00
+            }
+            
+            var acryliccontainer = {
+                prod_name: "Acrylic Container",
+                prod_price: 4500.00
+            }
+            
+            var shoerack = {
+                prod_name: "Shoe Rack",
+                prod_price: 1200.00
+            }
+            
+            var jewelryorganizer = {
+                prod_name: "Jewelry Organizer",
+                prod_price: 1500.00
+            }
+            
+            var bookcase = {
+                prod_name: "Book Case",
+                prod_price: 2000.00
+            }
+            
+            var utilitycart = {
+                prod_name: "Utility Cart",
+                prod_price: 15000.00
+            }
+            
+            var cabinet = {
+                prod_name: "Cabinet",
+                prod_price: 14000.00
+            }
+            
+            var toner = {
+                prod_name: "Toner",
+                prod_price: 4500.00
+            }
+            
+            var facialwash = {
+                prod_name: "Facial Wash",
+                prod_price: 1200.00
+            }
+            
+            var sunscreen = {
+                prod_name: "Sunscreen",
+                prod_price: 1500.00
+            }
+            
+            var moisturizer = {
+                prod_name: "Moisturizer",
+                prod_price: 2000.00
+            }
+            
+            var facialmask = {
+                prod_name: "Facial Mask",
+                prod_price: 15000.00
+            }
+            
+            var lipbalm = {
+                prod_name: "Lip Balm",
+                prod_price: 14000.00
+            }
+            
+            var loofah = {
+                prod_name: "Loofah",
+                prod_price: 230.00
+            }
+            
+            var towel = {
+                prod_name: "Towel",
+                prod_price: 1200.00
+            }
+            
+            var bodywash = {
+                prod_name: "Body Wash",
+                prod_price: 450.00
+            }
+            
+            var shampoo = {
+                prod_name: "Shampoo",
+                prod_price: 500.00
+            }
+            
+            var bathbomb = {
+                prod_name: "Bath Bomb",
+                prod_price: 100.00
+            }
+            
+            var conditioner = {
+                prod_name: "Conditioner",
+                prod_price: 490.00
+            }
+            
+            function displayCart(){
+                document.getElementById("cart-items").innerHTML = "";
+                for(var i=0; i < cust_order.length; i++){
+                    document.getElementById("cart-items").innerHTML += `<div class="items-cont">
+                        <p class ="cartname">` + cust_order[i].prod_name + `</p>
+                        <p class= "cartprice">`+ cust_order[i].prod_price+ `</p>
+                        <button class="btn-outline-danger remove_btn" onclick="removeButton(`+ i +`)">Remove from cart</button>
+                        <hr>
+                    </div>`
+                }
+            }
+            
+            function removeButton(i) {
+                cust_order.splice(i,1);
+                displayCart();
+            }
+            
+            function submitItems(){
+                    cust_order = JSON.stringify(cust_order); 
+                    document.getElementById("cust_order").value = cust_order; 
+                }
+            
+            
+            
+            function addMicrowave(){
+                cust_order.push(microwave); 
+                displayCart();
+            }
+            
+            function addKettle(){
+                cust_order.push(kettle); 
+                displayCart();
+            }
+            
+            function addToaster(){
+                cust_order.push(toaster); 
+                displayCart();
+            }
+            
+            function addBlender(){
+                cust_order.push(blender); 
+                displayCart();
+            }
+            
+            function addWashingMachine(){
+                cust_order.push(washingmachine); 
+                displayCart();
+            }
+            
+            function addFlatscreenTV(){
+                cust_order.push(flatscreentv); 
+                displayCart();
+            }
+            
+            function addAcrylicContainer(){
+                cust_order.push(acryliccontainer); 
+                displayCart();
+            }
+            
+            function addShoerack(){
+                cust_order.push(shoerack); 
+                displayCart();
+            }
+            
+            function addJewelryOrganizer(){
+                cust_order.push(jewelryorganizer); 
+                displayCart();
+            }
+            
+            function addBookcase(){
+                cust_order.push(bookcase); 
+                displayCart();
+            }
+            
+            function addUtilityCart(){
+                cust_order.push(utilitycart); 
+                displayCart();
+            }
+            
+            function addCabinet(){
+                cust_order.push(cabinet); 
+                displayCart();
+            }
+            
+            function addToner(){
+                cust_order.push(toner); 
+                displayCart();
+            }
+            
+            function addFacialWash(){
+                cust_order.push(facialwash); 
+                displayCart();
+            }
+            
+            function addSunscreen(){
+                cust_order.push(sunscreen); 
+                displayCart();
+            }
+            
+            function addMoisturizer(){
+                cust_order.push(moisturizer); 
+                displayCart();
+            }
+            
+            function addFacialMask(){
+                cust_order.push(facialmask); 
+                displayCart();
+            }
+            
+            function addLipbalm(){
+                cust_order.push(lipbalm); 
+                displayCart();
+            }
+            
+            function addLoofah(){
+                cust_order.push(loofah); 
+                displayCart();
+            }
+            
+            function addTowel(){
+                cust_order.push(towel); 
+                displayCart();
+            }
+            
+            function addBodyWash(){
+                cust_order.push(bodywash); 
+                displayCart();
+            }
+            
+            function addShampoo(){
+                cust_order.push(shampoo); 
+                displayCart();
+            }
+            
+            function addBathbomb(){
+                cust_order.push(bathbomb); 
+                displayCart();
+            }
+            
+            function addConditioner(){
+                cust_order.push(conditioner); 
+                displayCart();
+            }
+            
+            
+            
+
+        </script>
+    </body>
+</html>
