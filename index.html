@@ -1210,6 +1210,9 @@
                  <h1 style="margin-top: 20px;">Cart</h1>
                 <div class="cart-items" id="cart-items">
                 </div>
+                <div id="total-number">
+                    <p >Total: <span id="total-number-real"></span></p>
+                </div>
                 </div>
             </div>
             
@@ -1374,7 +1377,11 @@
                 prod_price: 490.00
             }
             
+            var total = 0;
+            
+            
             function displayCart(){
+                total = 0
                 document.getElementById("cart-items").innerHTML = "";
                 for(var i=0; i < cust_order.length; i++){
                     document.getElementById("cart-items").innerHTML += `<div class="items-cont">
@@ -1382,9 +1389,13 @@
                         <p class= "cartprice">`+ cust_order[i].prod_price+ `</p>
                         <button class="btn-outline-danger remove_btn" onclick="removeButton(`+ i +`)">Remove from cart</button>
                         <hr>
-                    </div>`
+                    </div>`; 
+                    
+                   total = total + cust_order[i].prod_price;
+                   document.getElementById("total-number-real").innerHTML = total;  
                 }
             }
+            
             
             function removeButton(i) {
                 cust_order.splice(i,1);
@@ -1396,8 +1407,7 @@
                     document.getElementById("cust_order").value = cust_order; 
                 }
             
-            
-            
+
             function addMicrowave(){
                 cust_order.push(microwave); 
                 displayCart();
@@ -1516,10 +1526,7 @@
             function addConditioner(){
                 cust_order.push(conditioner); 
                 displayCart();
-            }
-            
-            
-            
+            }   
 
         </script>
     </body>
